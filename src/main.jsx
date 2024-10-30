@@ -11,12 +11,16 @@ import Header from './pages/components/Header.jsx';
 import Background from './pages/components/Background.jsx';
 import Reviews from './pages/components/Reviews.jsx';
 import Facilities from './pages/components/Facilities.jsx';
-import Home from './pages/components/Home.jsx'
-import LocalInfo from './pages/components/LocalInfo.jsx';
-import Chalets from './pages/components/tys-new/Chalets.jsx';
+import Home2 from './pages/components/tys-new/Home2.jsx'
+import ContactUs from './pages/components/tys-new/ContactUs.jsx'
+import Chalets from './pages/components/tys-new/Chalets.jsx'
+
+// import LocalInfo from './pages/components/LocalInfo.jsx';
+// import Chalets from './pages/components/tys-new/Chalets.jsx';
 import Gala from './pages/components/tys-new/Chalets/Gala.jsx';
 import Braeburn from './pages/components/tys-new/Chalets/Braeburn.jsx';
 import Honeycrisp from './pages/components/tys-new/Chalets/Honeycrisp.jsx';
+import LocalInfo from './pages/components/tys-new/LocalInfo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
@@ -28,12 +32,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/background" element={<Background/>} />
         <Route path="/reviews" element={<Reviews/>} />
         <Route path="/facilities" element={<Facilities/>} />
-        <Route path="/home" element={<Home/>} />
-        <Route path="/local%20information" element={<LocalInfo/>} />
+        <Route path="/home" element={<Home2/>} />
+        {/* <Route path="/local%20information" element={<LocalInfo/>} /> */}
+        <Route path="/contact" element={<ContactUs/>} />
         <Route path="/chalets" element={<Chalets/>} />
-        
-        
-        
+        <Route path="/localinfo" element={<LocalInfo/>} />
+
+
+
+        {/* <Route path="/background" element={<Background/>} /> */}
+{/* contact us */}
         <Route path="/gala" element={<Gala/>} />
         <Route path="/honeycrisp" element={<Honeycrisp/>} />
         <Route path="/braeburn" element={<Braeburn/>} />

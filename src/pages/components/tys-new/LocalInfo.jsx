@@ -1,43 +1,21 @@
 import React from 'react';
-import { Box, Typography, Paper } from '@mui/material';
-import theme from '../../../../theme';
-import { ThemeProvider } from '@mui/material/styles';
-import SwipeableContent from '../SwipeableContent';
-import { zero } from '../Images';
 
-export default function Gala() {
-   
-    const images = [
-        { type: 'image', src: zero , alt: 'Placeholder Image 1' },
-        { type: 'image', src: zero , alt: 'Placeholder Image 1' },
-        { type: 'image', src: zero , alt: 'Placeholder Image 1' },
-        { type: 'image', src: zero , alt: 'Placeholder Image 1' },
-    ];
+import { Box, Typography, Paper } from "@mui/material";
+
+import sky from "../../../images/0.jpg";
+import './../App.css'
+
+import theme from '../../../theme';
+import { ThemeProvider } from '@mui/material/styles'
+
+import { useNavigate } from 'react-router-dom';
+
+const LocalInfo = () => {
+    const navigate = useNavigate();
 
     return (
         <ThemeProvider theme={theme}>
-            <Box sx={{ p: 2, overflowX: 'auto', whiteSpace: 'nowrap', display: 'flex', gap: 2 }}>
-                     <Paper
-                        // key={index}
-                        elevation={9}
-                        // sx={{
-                        //     borderRadius: '20px',
-                        //     overflow: 'hidden',
-                        //     minWidth: 300, // Set a minimum width for each card
-                        //     maxWidth: 400,
-                        //     textAlign: 'center',
-                        //     display: 'inline-block',
-                        // }}
-                    >
-                            <SwipeableContent contentItems={images} />
-
-                        {/* <Typography variant="h5" component="h2" style={theme.typography.junge} gutterBottom>
-                            {image.description}
-                        </Typography>
-                        <img src={image.src} alt={image.description} style={{ width: '100%', borderRadius: '20px' }} /> */}
-                    </Paper>
-             </Box>
-            {/* <Box p={2} mt={1}>
+            <Box p={2} mt={1}>
                 <img src={sky} alt="Background" className="background-image" />
            
 
@@ -62,7 +40,9 @@ export default function Gala() {
                         ></iframe>
                     </div>
                 </Paper>
-            </Box> */}
-        </ThemeProvider>
+            </Box>
+        </ThemeProvider >
     );
-}
+};
+
+export default LocalInfo;

@@ -2,6 +2,26 @@
 
 ??? WHAT IS MVP FOR PARENTS ???
 
+GET RID OF MENU?
+- put important things you can get more info out of on landing
+- dont wanna be able to go forward / back more than 5 tmes??
+
+- our chalets
+    - gala
+    - braeburn
+    - honeycrisp
+- contact us
+    - info
+- local info
+    - map 
+
+GET STYLING DONE FOR A BASE TO SHOW RENTS AND WORK OFF
+- fonts
+- colour scheme
+- feel - e.g. texture of cards
+- interactivity - swipe? smooth feel to navigating through
+
+
 1 . contact us 
 2 . chatlets
 3 . location 

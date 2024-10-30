@@ -24,7 +24,7 @@ const Chalets = () => {
                 >
                     <Typography p={2} variant="h5" component="h1" style={theme.typography.junge} textAlign={"center"}>
                         Gala                    </Typography>
-                    <img src={booknow} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
+                    <img src={sky} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
 
                 </Paper>
 
@@ -33,7 +33,7 @@ const Chalets = () => {
                 >
                     <Typography textAlign={"center"} p={2} variant="h5" component="h1" style={theme.typography.junge}>
                         Braeburn                 </Typography>
-                    <img src={booknow} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
+                    <img src={sky} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
 
                 </Paper>
 
@@ -42,7 +42,7 @@ const Chalets = () => {
                 >
                     <Typography p={2} textAlign={"center"} variant="h5" component="h1" style={theme.typography.junge}>
                         Honeycrisp                    </Typography>
-                    <img src={booknow} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
+                    <img src={sky} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
 
                 </Paper>
 
