@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from './pages/components/Header';
 import Layout from './pages/components/Layout';
 import { Box } from '@mui/material';
-import Home from './pages/components/Home';
+
 import Home2 from './pages/components/tys-new/Home2';
 import sky from "./images/0.jpg"
 
