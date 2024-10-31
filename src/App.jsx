@@ -11,27 +11,12 @@ import sky from "./images/0.jpg"
 
 
 function App() {
-
-  // manage background state here
-  // const [background, setBackground] = useEffect("")
-
-// when?
-// check in calendar add dates | check out
-// which chalet
-// member discount
-
+ 
   return (
     <ThemeProvider theme={theme}>
       <Box>
       <img src={sky} alt="Background" className="background-image" />
-
-
-        {/* <Header /> */}
-        {/* <Home /> */}
         <Home2 />
-
-        {/* have header and background here then navigater to other pages? */}
-
       </Box>
     </ThemeProvider>
   );
