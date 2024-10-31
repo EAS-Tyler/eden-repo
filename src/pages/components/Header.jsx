@@ -123,22 +123,20 @@ export default function TemporaryDrawer() {
     return (
         <div>
             <Paper sx={{ mt: 4 }}>
-                <Box display="flex" alignItems="center" justifyContent="center" sx={{ p: 2, mt: 2 }}>
-                    <Box width={60}></Box>
-    
-                    {location.pathname !== '/' && (
-                        <Box onClick={handleBack} style={{ cursor: 'pointer' }}>
-                            <ArrowBackIcon sx={{pr: 0}}/>
-                            {/* ADD SPACE HERE XXX     */}
-                        </Box>
-                    )}
-    
-                    {/* Center the image without limiting width */}
-                    <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
+                <Box display="flex" alignItems="center" sx={{ p: 2, mt: 2 }}>
+                     <Box sx={{ width: 60, display: 'flex', justifyContent: 'flex-start' }}>
+                        {location.pathname !== '/' && (
+                            <Box onClick={handleBack} style={{ cursor: 'pointer' }} sx={{ pt: 1,pl: 2 }}>
+                                <ArrowBackIcon />
+                            </Box>
+                        )}
+                    </Box>
+
+                     <Box sx={{ flex: 1, display: "flex", justifyContent: "center" }}>
                         <img src={logo} alt="Description" style={{ padding: 1, width: "100%" }} />
                     </Box>
-    
-                    <Box width={60}></Box>  
+
+                     <Box sx={{ width: 60 }} />
                 </Box>
             </Paper>
             <Drawer

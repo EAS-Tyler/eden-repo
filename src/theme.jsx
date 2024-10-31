@@ -17,6 +17,14 @@ const theme = createTheme({
       fontFamily: "'Great Vibes', cursive",
       // fontSize: '1.2rem', // Adjust to your liking
     },
+    luxuryTitle: {
+      // fontFamily: "'Niconne', cursive",
+
+      fontFamily: "'Great Vibes', cursive",
+
+      // fontFamily: "'Norican', cursive",
+      // fontWeight: '500  ',
+    }
   },
 });
 

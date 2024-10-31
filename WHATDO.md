@@ -1,5 +1,22 @@
 
 
+TIDY BLOODY CODEBASE
+- start new and move thinggs over peice by peice?
+- use image provider, look at alternatives to my images.jsx
+- make 'chalet' component
+    - pass in chalet object
+        - name
+        - image
+        - description
+        - link to book
+        - link to contact - social bar - component -- footer??
+    - render out the details
+
+
+find some fonts!!
+- https://fonts.google.com/
+
+
 ??? WHAT IS MVP FOR PARENTS ???
 
 GET RID OF MENU?

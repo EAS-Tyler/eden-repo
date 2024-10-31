@@ -9,6 +9,13 @@ import theme from '../../../theme';
 import { ThemeProvider } from '@mui/material/styles'
 // import BookNow from '../../BookNow';
 import { useNavigate } from 'react-router-dom';
+import chaletss from "../../../images/ty/misc/chalets.jpg"
+import beach from "../../../images/ty/misc/beach.jpg"
+import patio from "../../../images/ty/brae/patio.jpg"
+import gnomes from "../../../images/ty/misc/gnomes.jpg"
+
+
+
 
 const Home2 = () => {
     const navigate = useNavigate();
@@ -21,28 +28,79 @@ const Home2 = () => {
                 <Paper elevation={9} style={{ borderRadius: "20px", padding: '20px', marginBottom: '20px' }}
                     onClick={() => { navigate("/chalets") }}
                 >
-                    <Typography p={2} variant="h5" component="h1" style={theme.typography.junge}>
+                    <Typography p={2} variant="h4"
+                        style={theme.typography.luxuryTitle}
+                        component="h1"
+                        textAlign={"center"}
+                    >
                         Our Chalets                    </Typography>
-                    <img src={booknow} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
-
+                    {/* <img src={patio} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} /> */}
+                    <img 
+                        src={patio} 
+                        alt="Description" 
+                        style={{ 
+                            padding: 1, 
+                            width: "100%", 
+                            height: "250px", // Adjust this value to your needs
+                            borderRadius: "20px",
+                            objectFit: "cover",
+                            objectPosition: "center" // You can use "top", "bottom", or "center 30%" etc.
+                        }} 
+                    />
                 </Paper>
 
 
                 <Paper elevation={9} style={{ borderRadius: "20px", padding: '20px', marginBottom: '20px' }}
                     onClick={() => { navigate("/contact") }}
                 >
-                    <Typography p={2} variant="h5" component="h1" style={theme.typography.junge}>
+                    <Typography p={2}
+                        style={theme.typography.luxuryTitle}
+                        variant="h4"
+                        component="h1"
+                        textAlign={"center"}
+                    >
                         Contact Us                    </Typography>
-                    <img src={apple} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
+                    {/* <img src={apple} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} /> */}
+             
+                    <img 
+                        src={apple} 
+                        alt="Description" 
+                        style={{ 
+                            padding: 1, 
+                            width: "100%", 
+                            height: "250px", // Adjust this value to your needs
+                            borderRadius: "20px",
+                            objectFit: "cover",
+                            objectPosition: "center" // You can use "top", "bottom", or "center 30%" etc.
+                        }} 
+                    />
+             
+             
                 </Paper>
                 <Paper elevation={9} style={{ borderRadius: "20px", padding: '20px', marginBottom: '20px' }}
                     onClick={() => { navigate("/localinfo") }}
                 >
-                    <Typography p={2} variant="h5" component="h1" style={theme.typography.junge}>
+                    <Typography p={2}
+                        style={theme.typography.luxuryTitle}
+                        variant="h4"
+                        component="h1"
+                        textAlign={"center"}
+                    >
                         Local Info                    </Typography>
 
-                        <img src={apple} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
-
+                    {/* <img src={gnomes} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} /> */}
+                    <img 
+                        src={gnomes} 
+                        alt="Description" 
+                        style={{ 
+                            padding: 1, 
+                            width: "100%", 
+                            height: "250px", // Adjust this value to your needs
+                            borderRadius: "20px",
+                            objectFit: "cover",
+                            objectPosition: "center" // You can use "top", "bottom", or "center 30%" etc.
+                        }} 
+                    />
                 </Paper>
 
 
