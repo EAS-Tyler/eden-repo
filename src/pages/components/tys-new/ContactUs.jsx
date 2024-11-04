@@ -6,7 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import chalets from "../../../images/ty/misc/chalets.jpg"
 import { Box, Typography, Paper } from "@mui/material";
 import sky from "../../../images/0.jpg";
-import './../App.css'
+import '../App.css'
 import theme from '../../../theme';
 
 import { ThemeProvider } from '@mui/material/styles'
@@ -25,10 +25,19 @@ const ContactUs = () => {
                 <Paper elevation={9} style={{ borderRadius: "20px", padding: '20px', marginBottom: '20px' }}
 
                 >
-                    <Typography p={2} variant="h5" component="h1" style={theme.typography.junge} textAlign={"center"}>
+                    <Typography p={2} 
+                    variant="h5" component="h1"
+                    style={theme.typography.luxuryTitle}
+                     >
                         Contact Us                    </Typography>
-                    <img src={chalets} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} />
-                    <Typography p={2} variant="body1" component="h1" style={theme.typography.junge} textAlign={"center"}>
+                    <img src={chalets} alt="Description" 
+                    style={{ padding: 1, width: "100%", borderRadius: "20px" }}
+                    
+                    />
+                    <Typography p={2} variant="body1" component="h1" 
+                    // style={theme.typography.junge} textAlign={"center"}
+                    style={theme.typography.edenbody}
+                    >
                         Email: eve@edengardens.com <br /> <br />
                         Phone: 07484 444444
 

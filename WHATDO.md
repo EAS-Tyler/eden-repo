@@ -32,6 +32,14 @@ GET RID OF MENU?
 - local info
     - map 
 
+
+- itemise priorities 
+- bosh out 
+    - make good use of theme provider
+    - make use of image provider 
+    - rename chalets to lodges
+    - 
+
 GET STYLING DONE FOR A BASE TO SHOW RENTS AND WORK OFF
 - fonts
 - colour scheme

@@ -3,12 +3,13 @@ import React from 'react';
 import { Box, Typography, Paper } from "@mui/material";
 import apple from "../../../images/apple.jpg";
 import sky from "../../../images/0.jpg";
+import images from "./Images"
 
 import kitchdine from "../../../images/ty/honey/kitchdine.jpg";
 import bed from "../../../images/ty/brae/bed.jpg";
 // import sky from "../../../images/0.jpg";
 
-import './../App.css'
+import '../App.css'
 import booknow from "../EDENEDEN.jpg"
 import theme from '../../../theme';
 import { ThemeProvider } from '@mui/material/styles'
@@ -22,6 +23,8 @@ const Chalets = () => {
         <ThemeProvider theme={theme}>
             <Box p={2} mt={1}>
                 <img src={sky} alt="Background" className="background-image" />
+                {/*  XXX  - cant i use image from background on app.jsx
+                 */}
 
 
                 <Paper elevation={9} style={{ borderRadius: "20px", padding: '20px', marginBottom: '20px' }}
@@ -34,6 +37,9 @@ const Chalets = () => {
                         Gala                    </Typography>
                     {/* <img src={kitchdine} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} /> */}
                     <img 
+
+// src={`/525af60f-606d-4248-ad9b-4f1628ee0c9f.jpg`} 
+
                         src={kitchdine} 
                         alt="Description" 
                         style={{ 
@@ -76,7 +82,7 @@ const Chalets = () => {
                         textAlign={"center"} >                        Honeycrisp                    </Typography>
                     {/* <img src={sky} alt="Description" style={{ padding: 1, width: "100%", borderRadius: "20px" }} /> */}
                     <img 
-                        src={sky} 
+                        src={images.bed2} 
                         alt="Description" 
                         style={{ 
                             padding: 1, 

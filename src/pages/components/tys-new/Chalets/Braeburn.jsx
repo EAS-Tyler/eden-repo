@@ -3,19 +3,18 @@ import { Box, Typography, Paper } from '@mui/material';
 import theme from '../../../../theme';
 import { ThemeProvider } from '@mui/material/styles';
 import SwipeableContent from '../SwipeableContent';
-import { one, two, zero, three } from '../Images';
+import images from '../Images';
 import sky from "../../../../images/0.jpg";
 
 
 export default function Braeburn() {
-   
-    const images = [
-        { type: 'image', src: zero , alt: 'Placeholder Image 1' },
-        { type: 'image', src: one , alt: 'Placeholder Image 1' },
-        { type: 'image', src: two , alt: 'Placeholder Image 1' },
-        { type: 'image', src: three , alt: 'Placeholder Image 1' },
-    ]; 
 
+    const images = [
+        { type: 'image', src: images.zero, alt: 'Placeholder Image 1' },
+        { type: 'image', src: images.one, alt: 'Placeholder Image 1' },
+        { type: 'image', src: images.two, alt: 'Placeholder Image 1' },
+        { type: 'image', src: images.three, alt: 'Placeholder Image 1' },
+    ];
     return (
         <ThemeProvider theme={theme}>
             <img src={sky} alt="Background" className="background-image" />
